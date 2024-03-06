@@ -9,7 +9,7 @@ export class Pacman {
    nextDirection = this.DIRECTION_RIGHT
    x = 200;
    y = 260;
-   speed = 4;
+   speed = 6;
    currentFrame = 0;
    score = 0;
    lives = 3;
