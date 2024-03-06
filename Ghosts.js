@@ -12,7 +12,7 @@ export class Ghost {
    DIRECTION_BOTTOM = 1;
    direction = this.DIRECTION_RIGHT;
    nextDirection = this.DIRECTION_RIGHT
-   speed = 4;
+   speed = 2;
 
    constructor (map, pacman, x, y, frameX, frameY) {
       this.map = map;
